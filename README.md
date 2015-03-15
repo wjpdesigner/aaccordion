@@ -22,7 +22,7 @@ Load Bootstrap and AAccordion files.
 <link rel="stylesheet" href="aaccordion.css">
 ```
 #### 2.Set up your HTML
-Inside the container `.panel-group` you can add as many as panels as you want. But make sure that `href="#xxxOne"` matching with panel `id="xxxOne"`.
+Inside the container `.panel-group` you can add as many as panels as you want. But make sure that the anchor tag inside the `.panel-heading` ex.`href="#xxxOne"` matching with the `.panel-body` container `id` ex.`id="xxxOne"`.
 ```html
 <!--START Accordion--><div class="panel-group" id="accordion">
 	
@@ -65,7 +65,7 @@ Inside the container `.panel-group` you can add as many as panels as you want. B
 <!--END Accordion--></div>	
 ```
 #### 3.Style your accordion in CSS
-```html
+```css
 .panel-heading .accordion-toggle:after {
     content: "\2212"; /*Adding the toggle icon here*/
 	font-size: 20px;
