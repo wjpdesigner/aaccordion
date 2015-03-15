@@ -15,6 +15,9 @@
 .panel-group .panel {
 	border-radius: 0px;
 }
+.panel-title {
+	font-size: 15px;
+}
 .panel-heading {
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
@@ -158,25 +161,13 @@ a.btn:link, a.btn:visited, a.btn:hover{
 	#header {
 		padding: 20px 20px 40px;
 	}
-	
-	.fa-angle-left, .fa-angle-right {
-		display: none;
-	}
-	
-	.carousel-caption {
-		font-size: 10px;
+	.panel-heading {
+		padding: 20px 15px;
 	}
 }
 
 @media (max-width: 374px) {
 	h1 {
 		font-size: 3em;
-	}
-	.carousel-caption h3 {
-		font-size: 1.2em;
-		margin-bottom: 5px;
-	}
-	.carousel-caption {
-		padding-top: 10px;
 	}
 }
