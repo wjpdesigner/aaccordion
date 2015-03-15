@@ -152,6 +152,9 @@ a.btn:link, a.btn:visited, a.btn:hover{
 
 /*--Media Query--*/
 @media (max-width: 757px) {
+	h1 {
+	 font-size: 3.5em;
+	{
 	#header {
 		padding: 20px 20px 40px;
 	}
